@@ -2,6 +2,8 @@ FROM codingcorp-docker.pkg.coding.net/nocalhost/public/minideb:master
 
 MAINTAINER "Nocalhost"
 
+allen
+
 # Install packages
 RUN echo 'Acquire::Check-Valid-Until no;' > /etc/apt/apt.conf.d/99no-check-valid-until
 RUN install_packages openssh-server wget
