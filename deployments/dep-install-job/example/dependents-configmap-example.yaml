@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: nocalhost-depends-do-not-overwrite-gernatekey
+  name: nocalhost-depends-do-not-overwrite-gernatekey test
   namespace: nocalhost-reserved
 data:
   nocalhost: |
