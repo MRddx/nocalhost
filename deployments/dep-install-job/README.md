@@ -9,6 +9,8 @@
 3. 替换 webhook/mutating-webhook.yaml CA_BUNDLE，对应 kubeconfig 的 `certificate-authority-data`，生成 mutating-webhook-ca-bundle.yaml
 4. 部署 webhook/mutating-webhook-ca-bundle.yaml、webhook/sidecar-configmap.yaml、webhook/deployment.yaml 和 webhook/service.yaml
 
+test
+
 # 构建
 ## nocalhost-dep
 需要从项目根目录构建，并向 docker 手动传递上下文：
